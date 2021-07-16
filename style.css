@@ -1,0 +1,197 @@
+*{
+    /* box-sizing: border-box; */
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-color:aqua;
+}
+.container{
+    background-color: #fb718d;
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 500px;
+    height: 15%;
+    margin-top: 4%;
+    padding: 1%;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size:medium;
+    margin-right: 35%;
+}
+.formGroup{
+    text-align: center;
+}
+.emailInput{
+    margin-left: 8%;   
+}
+.mobileInput{
+    margin-left: 6%;
+}
+.userNameInput{
+    margin-left: 2%;
+}
+.lastNameInput{
+    margin-left: 3px;
+}
+.categoryLabel{
+    padding-right: 1%;
+}
+.categorySelect{
+    margin-right: 6%;
+}
+.buttonSpace{
+    margin-top: 5%;
+}
+.registerBtn{
+    margin-top: 10px;
+    margin-left: -9px;
+    position: fixed;
+}
+.login{
+    text-align: center;
+    margin-bottom: 4%;
+    padding-top: 15px;
+    /* padding-right: 43px; */
+    font-family: 'Teko', sans-serif;
+    font-weight: medium 500;
+    font-size: 3em;
+}
+.btnMain{
+    padding-left: 67%;
+    margin-left: 4px;
+}
+.btnHome{
+    border: none;
+    background-color:#923a53;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+.btnHome:hover{
+    background-color:rgb(150, 238, 150);
+}
+.btnAbout{
+    margin-left: 1%;
+    border: none;
+    background-color:#923a53;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 7px 9px;
+    cursor: pointer;
+}
+.btnAbout:hover{
+    background-color:rgb(150, 238, 150);
+}
+.goRight{
+    padding-left: 93%;
+    margin-top: 4%;
+}
+.buttonOne{
+    padding-left: 36%;
+    padding-top: 31px;
+}
+#registerBtn{
+    background-color: #923a53;
+    border: none;
+    color: white;
+    padding: 11% 55%;
+    margin: 4px 1px;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    border-radius: 64px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#registerBtn:hover{
+    background-color:rgb(150, 238, 150);
+}
+.btnBg{
+    background-color: #d9d7da;
+    cursor: pointer;
+}
+.btnBg:hover{
+    background-color: rgb(111, 255, 188);
+}
+.borderCss{
+    border: 1px solid black;
+    border-radius: 55%;
+    box-shadow: 0px 3px 8px -1px rgb(241 165 191 / 29%)
+}
+.btnBgs{
+    border: none;
+    color: white;
+    margin: 5px 9px;
+}
+.btnBgcol{
+    border: none;
+    background-color:#923a53;
+    color: white;
+    padding: 12px 19px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btnBgcol:hover{
+    background-color:rgb(150, 238, 150);
+}
+.largeText{
+    box-sizing: border-box;
+    border: none;
+    padding: 14px 50px;
+    /* text-align: center; */
+}
+.selectStyle{
+    padding: 17px 47px;
+}
+::placeholder{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-weight:500;
+}
+.optionLabel{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-weight:500;
+}
+input[type=text]{
+    background-color: rgb(150, 238, 150);
+    box-shadow: inset -1px 1px 5px;
+}
+input[type=email]{
+    background-color: rgb(150, 238, 150);
+    box-shadow: inset -1px 1px 5px;
+}
+input[type=name]{
+    background-color: rgb(150, 238, 150);
+    box-shadow: inset -1px 1px 5px;
+}
+input[type=Username]{
+    background-color: rgb(150, 238, 150);
+    box-shadow: inset -1px 1px 5px;
+}
+input[type=name]:hover{
+    background-color: rgb(253, 183, 183);
+}
+input[type=email]:hover{
+    background-color: rgb(253, 183, 183);
+}
+input[type=text]:hover{
+    background-color: rgb(253, 183, 183);
+}
+input[type=Username]:hover{
+    background-color: rgb(253, 183, 183);
+}
+.customSelect{
+    position:relative;
+    font-family: 'Teko', sans-serif;
+    background-color: rgb(150, 238, 150);
+    font-weight:500;
+    box-shadow: 1px 1px 0px;
+}
+.customSelect:hover{
+    background-color: rgb(253, 183, 183);
+}

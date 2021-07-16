@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Teko:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <button class="btnBg borderCss">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <span class="btnMain">
+                <button class="btnHome">Home</button>
+                <button class="btnAbout">About</button>
+            </span>
+            </div>
+            <h1 class="login">Login</h1>
+            <br>
+            <form action="">
+                <div class="formGroup">
+                    <label for="">First Name:</label>
+                    <input class="firstNameInput largeText" type="name" name="firstName" placeholder="Enter First Name" required>
+                </div>
+                <br>
+                <div class="formGroup">
+                    <label for="">Last Name:</label>
+                    <input class="lastNameInput largeText" type="name" name="lastName" placeholder="Enter Last Name">
+                </div>
+                <br>
+                <div class="formGroup">
+                    <label for="">Username:</label>
+                    <input class="userNameInput largeText" type="userName" name="userName" placeholder="Enter Username">
+                </div>
+                <br>
+                <div class="formGroup">
+                    <label for="">Email:</label>
+                    <input class="emailInput largeText" type="Email" name="Email" placeholder="xyz@example.com" required>
+                </div>
+                <br>
+                <div class="formGroup">
+                    <label class="labelStyle" for="">Mobile:</label>
+                    <input class="mobileInput largeText" type="text" name="number" placeholder="+91">
+                </div>
+                <br>
+                <div class="formGroup">
+                    <label for="category" class="categoryLabel"> Choose Category:</label>
+                    <select class="categorySelect selectStyle customSelect" name="category" id="category" required>
+                        <option class="optionsLabel" value="B.com">B.Com</option>
+                        <option class="optionsLabel" value="Bca">Bca</option>
+                        <option class="optionsLabel" value="graduated" selected="selected">Graduated</option>
+                        <option class="optionsLabel" value="programmer">programmer</option>
+                        <option class="optionsLabel" value="developer">Developer</option>
+                    </select>
+                </div>
+            </form>
+            <div class="buttonOne buttonSpace btnBgs">
+                <button class="btnBgcol" >Reset</button>
+                <button class="btnBgcol" >Submit</button>
+            </div>
+            <div class="registerBtn">
+                <button id="registerBtn">Register</button>
+            </div>
+            <div class="goRight">
+                <button class="btnBg borderCss">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    </body>
+    
+    </html>
